@@ -1,8 +1,12 @@
-colo desert
+call pathogen#infect()
+
 syntax enable
+filetype plugin indent on
+colo desert
 set number
-set ts=2
+set expandtab ts=2 sw=2 ai
 set noswapfile
+:set hlsearch
 
 :map <C-t> :tabnew <cr>
 :imap <C-t> <ESC>:tabnew <cr>
